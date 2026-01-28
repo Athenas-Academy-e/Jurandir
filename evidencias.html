@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PRISON-X | Evidências</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">
+            <span>PRISON-X</span>
+        </a>
+    </nav>
+
+    <h1 class="titulo">Evidências do Caso Jurandir</h1>
+    <div class="container">
+        <h2 id="total-evidencias" style="margin: 10px;"></h2>
+        <div class="grid evidencias" id="lista-videos"></div>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal" id="modal">
+        <span class="close" onclick="fecharVideo()">✖</span>
+        <video id="videoPlayer" controls controlslist="nodownload noplaybackrate noremoteplayback"
+            disablepictureinpicture></video>
+    </div>
+
+    <div>
+        <button onclick="window.history.back()" class="button" style="margin-left: 50%;">Voltar</button>
+    </div>
+
+    <footer>
+        Conteúdo fictício para fins recreativos. |
+        <a href="https://instagram.com/athenasacademy/" target="_blank">
+            Instagram
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
