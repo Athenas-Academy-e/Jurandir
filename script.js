@@ -4,7 +4,7 @@ const dados = {
     nome: "Luana — Perícia Digital",
     crime: "Manipulação de registros",
     status: "desconhecida",
-    img: linkarquivo + "/img/luana.jpg",
+    img: linkarquivo + "/img/luana.jpg" || "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91",
     desc: "Responsável pela análise dos sistemas que monitoravam o boneco Jurandir. Detectou inconsistências nos logs de horário e possíveis alterações manuais nos registros do experimento.",
     videos: [
       linkarquivo + "/videos/video1.mp4",
@@ -15,7 +15,7 @@ const dados = {
     nome: "Benicio — Engenharia Forense",
     crime: "Falha estrutural suspeita",
     status: "detido",
-    img: "https://images.unsplash.com/photo-1544723795-3fb6469f5b39",
+    img: "https://images.unsplash.com/photo-1544723795-3fb6469f5b39" || linkarquivo + "/img/benicio.jpg",
     desc: "Analisou o suporte onde o boneco Jurandir estava fixado. Os cálculos indicam que o colapso não foi causado por desgaste natural, sugerindo intervenção externa.",
     videos: [
       linkarquivo + "/videos/video2.mp4",
@@ -26,7 +26,7 @@ const dados = {
     nome: "Cristiane - Investigação de Cena de Crime",
     crime: "Comprometimento da cena do crime",
     status: "detida",
-    img: linkarquivo + "/img/cris.jpg",
+    img: linkarquivo + "/img/cris.jpg" || "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
     desc: "Foi a primeira a chegar ao local onde Jurandir foi encontrado danificado. Alguns vestígios foram removidos antes do registro oficial, levantando dúvidas sobre a preservação da cena.",
     videos: [
       linkarquivo + "/videos/video3.mp4",
@@ -36,7 +36,7 @@ const dados = {
     nome: "Jardel — Investigação Tecnológica",
     crime: "Supressão de dados",
     status: "live",
-    img: linkarquivo + "/img/jardel.png",
+    img: linkarquivo + "/img/jardel.png" || "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91",
     desc: "Teve acesso direto aos sensores e dispositivos do experimento. Parte dos dados críticos foi apagada minutos antes da perícia oficial.",
     videos: [
       linkarquivo + "/videos/video4.mp4",
