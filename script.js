@@ -1,13 +1,14 @@
+const linkarquivo = "https://athenasacademy.com.br/dkweb/jurandir"
 const dados = {
   luana: {
     nome: "Luana — Perícia Digital",
     crime: "Manipulação de registros",
     status: "desconhecida",
-    img: "/img/luana.jpg",
+    img: linkarquivo + "/img/luana.jpg",
     desc: "Responsável pela análise dos sistemas que monitoravam o boneco Jurandir. Detectou inconsistências nos logs de horário e possíveis alterações manuais nos registros do experimento.",
     videos: [
-      "/videos/video1.mp4",
-      "/videos/video5.mp4"
+      linkarquivo + "/videos/video1.mp4",
+      linkarquivo + "/videos/video5.mp4"
     ]
   },
   benicio: {
@@ -17,28 +18,28 @@ const dados = {
     img: "https://images.unsplash.com/photo-1544723795-3fb6469f5b39",
     desc: "Analisou o suporte onde o boneco Jurandir estava fixado. Os cálculos indicam que o colapso não foi causado por desgaste natural, sugerindo intervenção externa.",
     videos: [
-      "/videos/video2.mp4",
-      "/videos/video6.mp4",
+      linkarquivo + "/videos/video2.mp4",
+      linkarquivo + "/videos/video6.mp4",
     ]
   },
   cristiane: {
     nome: "Cristiane - Investigação de Cena de Crime",
     crime: "Comprometimento da cena do crime",
     status: "detida",
-    img: "/img/cris.jpg",
+    img: linkarquivo + "/img/cris.jpg",
     desc: "Foi a primeira a chegar ao local onde Jurandir foi encontrado danificado. Alguns vestígios foram removidos antes do registro oficial, levantando dúvidas sobre a preservação da cena.",
     videos: [
-      "/videos/video3.mp4",
+      linkarquivo + "/videos/video3.mp4",
     ]
   },
   jardel: {
     nome: "Jardel — Investigação Tecnológica",
     crime: "Supressão de dados",
     status: "live",
-    img: "/img/jardel.png",
+    img: linkarquivo + "/img/jardel.png",
     desc: "Teve acesso direto aos sensores e dispositivos do experimento. Parte dos dados críticos foi apagada minutos antes da perícia oficial.",
     videos: [
-      "/videos/video4.mp4",
+      linkarquivo + "/videos/video4.mp4",
     ]
   }
 };
