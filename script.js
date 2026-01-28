@@ -63,6 +63,7 @@ if (document.getElementById("perfil")) {
   `;
 }
 
+
 const lista = document.getElementById("lista-suspeitos");
 
 if (lista) {
