@@ -4,7 +4,7 @@ const dados = {
     nome: "Luana — Perícia Digital",
     crime: "Manipulação de registros",
     status: "desconhecida",
-    img: linkarquivo + "/img/luana.jpg" || "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91",
+    img: linkarquivo + "/img/luana.jpg" || "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
     desc: "Responsável pela análise dos sistemas que monitoravam o boneco Jurandir. Detectou inconsistências nos logs de horário e possíveis alterações manuais nos registros do experimento.",
     videos: [
       linkarquivo + "/videos/video1.mp4",
@@ -26,7 +26,7 @@ const dados = {
     nome: "Cristiane - Investigação de Cena de Crime",
     crime: "Comprometimento da cena do crime",
     status: "detida",
-    img: linkarquivo + "/img/cris.jpg" || "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
+    img: linkarquivo + "/img/cris.jpg" || "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
     desc: "Foi a primeira a chegar ao local onde Jurandir foi encontrado danificado. Alguns vestígios foram removidos antes do registro oficial, levantando dúvidas sobre a preservação da cena.",
     videos: [
       linkarquivo + "/videos/video3.mp4",
@@ -36,7 +36,7 @@ const dados = {
     nome: "Jardel — Investigação Tecnológica",
     crime: "Supressão de dados",
     status: "live",
-    img: linkarquivo + "/img/jardel.png" || "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91",
+    img: linkarquivo + "/img/jardel.png" || "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
     desc: "Teve acesso direto aos sensores e dispositivos do experimento. Parte dos dados críticos foi apagada minutos antes da perícia oficial.",
     videos: [
       linkarquivo + "/videos/video4.mp4",
